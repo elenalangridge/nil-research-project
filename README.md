@@ -1,3 +1,5 @@
+Data + GitHub repo
+
 a) Repository Structure
 	- data/raw/: Contains the original, untouched CSV files for each university provided by CalMatters
 	- data/clean/: Contains the processed datasets, including the intermediate standardised_nil.csv and the final analysis-ready nil_merged_analysis.csv, along with the data codebook
