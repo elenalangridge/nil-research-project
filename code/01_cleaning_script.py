@@ -77,4 +77,3 @@ def clean_nil_data():
 
 if __name__ == "__main__":
     clean_nil_data()
-
