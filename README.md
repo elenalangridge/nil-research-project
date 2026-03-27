@@ -1,26 +1,52 @@
-# Data + GitHub repo
+# NIL Research Project
 
-## a) Repository Structure
-- data/raw/: Contains the original, untouched CSV files for each university provided by CalMatters
-- data/clean/: Contains the processed datasets, including the intermediate standardised_nil.csv and the final analysis-ready nil_merged_analysis.csv, along with the data codebook
-- code/: Contains the Python scripts required to transform the raw data into a structured format for empirical analysis
+This repository contains the data and code for analysing Name, Image, and Likeness (NIL) deals at California public Division I universities from 2021-2024. The project examines the impact of social media deals on average transaction values, controlling for school and sport.
 
-## b) Manual Steps Outside of the Code
-- Data Acquisition: If the raw data is not pre-loaded, the individual university CSVs must be downloaded (e.g., ucla.csv, ucdavis.csv, fresnostate1.csv) from the CalMatters GitHub repository. 
-- Missing Records: Note that Cal State Northridge and San Jose State reported having no records of NIL deals and will not have corresponding data files for processing. 
-- Software Setup: Ensure Python is installed on your machine along with the pandas and numpy libraries to handle data manipulation and aggregation. 
-- Data Limitations: Be aware that the research utilises the minimum guaranteed value for ambiguous "per month" or product-based "in-kind" deals to ensure a conservative and realistic estimation
+## Repository Structure
 
-## c) How to Run the Project from Scratch
-- To reproduce the analysis, follow these steps in order. These scripts ensure that varying levels of transparency across schools—ranging from payment-level details to annual team totals—are harmonised into a single dataset.
-	###	1. Run the Cleaning Script
-- File: code/01_cleaning_script.py
-- Action: This script standardises inconsistent column headers across the 16 schools and searches transaction descriptions to identify the social media "treatment group".
-	###	2. Run the Aggregation Script
-- File: code/02_aggregation_script.py
-- Action: This script aggregates individual payment records to the sport-team level per year (2021–2024)
-- This step is vital for constructing the final outcome variable: the annual NIL sponsorship transaction value per sport
+- `README.md`: This file provides a project overview and instructions.
+- `code/`: Contains Python scripts for data processing.
+  - `01_cleaning_script.py`: Standardises and cleans raw CSV files from multiple universities.
+  - `02_aggregation_script.py`: Aggregates cleaned data to team-level averages for analysis.
+- `data/`: Contains all data files.
+  - `raw/`: Original CSV files from each university (e.g., ucla.csv, ucberkeley.csv, etc.).
+  - `clean/`: Processed datasets.
+    - `cleaned_nil.csv`: Intermediate cleaned dataset with standardised columns.
+    - `nil_merged_analysis.csv`: Final aggregated dataset for regression analysis.
 
-## d) Order of Script Execution
-- 01_cleaning_script.py: Must be run first to generate the standardised data
-- 02_aggregation_script.py: Must be run second to produce the final dataset for empirical modelling
+## How to Run the Project from Scratch
+
+### Prerequisites
+- Python 3.8 or higher installed on your system.
+- Git (optional, for cloning the repository).
+
+### Setup Steps
+1. **Clone or Download the Repository**:
+   - If using Git: `git clone [repository URL]`
+   - Or download the ZIP file and extract it.
+
+2. **Set Up Virtual Environment** (Recommended):
+   - Navigate to the project directory.
+   - Create a virtual environment: `python -m venv .venv`
+   - Activate it: `source .venv/bin/activate` (on macOS/Linux) or `.venv\Scripts\activate` (on Windows).
+
+3. **Install Dependencies**:
+   - Install required packages: `pip install pandas numpy`
+
+4. **Run the Scripts in Order**:
+   - First, run the cleaning script: `python code/01_cleaning_script.py`
+     - This processes raw CSV files, standardises columns, handles missing data, and identifies social media deals.
+   - Second, run the aggregation script: `python code/02_aggregation_script.py`
+     - This aggregates the cleaned data to school-sport-year level averages.
+
+### Manual Steps Outside of the Code
+- **Data Acquisition**: The raw data files are included in `data/raw/`. If you need to update or acquire new data, download CSV files from the CalMatters GitHub repository or relevant sources. Note that some schools (e.g., Cal State Northridge, San Jose State) reported no NIL deals and are not included.
+- **Data Validation**: Manually review the cleaned data for any anomalies, as the scripts apply conservative estimates for ambiguous deals (e.g., minimum values for "per month" or in-kind deals).
+- **Software Setup**: Ensure your system has Python and the required libraries. If using a different environment manager (e.g., conda), adjust the setup accordingly.
+- **Output Verification**: After running scripts, check `data/clean/` for the generated files and verify row counts match expectations.
+
+### Order of Script Execution
+1. `01_cleaning_script.py`: Run first to clean and standardise raw data.
+2. `02_aggregation_script.py`: Run second to aggregate data for analysis.
+
+After running both scripts, the `nil_merged_analysis.csv` file will be ready for statistical modelling (e.g., regression analysis on the effect of social media deals on NIL values).
