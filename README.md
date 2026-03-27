@@ -1,9 +1,9 @@
 #Data + GitHub repo
 
 ##a) Repository Structure
-	- data/raw/: Contains the original, untouched CSV files for each university provided by CalMatters
-	- data/clean/: Contains the processed datasets, including the intermediate standardised_nil.csv and the final analysis-ready nil_merged_analysis.csv, along with the data codebook
-	- code/: Contains the Python scripts required to transform the raw data into a structured format for empirical analysis
+		- 	data/raw/: Contains the original, untouched CSV files for each university provided by CalMatters
+		- 	data/clean/: Contains the processed datasets, including the intermediate standardised_nil.csv and the final analysis-ready nil_merged_analysis.csv, along with the data codebook
+		- 	code/: Contains the Python scripts required to transform the raw data into a structured format for empirical analysis
 
 ##b) Manual Steps Outside of the Code
 	- Data Acquisition: If the raw data is not pre-loaded, the individual university CSVs must be downloaded (e.g., ucla.csv, ucdavis.csv, fresnostate1.csv) from the CalMatters GitHub repository. 
