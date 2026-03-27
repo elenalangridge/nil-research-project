@@ -1,0 +1,377 @@
+school,sport,year,is_social_media,avg_transaction_value
+calpolyslo,Football,2024,0,2000.0
+csulongbeach,Basketball,2022,0,1000.0
+csulongbeach,Basketball,2022,1,360.0
+csulongbeach,Basketball,2023,1,243.0909090909091
+csulongbeach,Basketball,2024,0,642.8571428571429
+csulongbeach,Basketball,2024,1,205.53333333333333
+csulongbeach,Beach Volleyball,2023,0,50.0
+csulongbeach,Beach Volleyball,2024,1,565.75
+csulongbeach,Soccer,2024,0,125.0
+csulongbeach,Track and Field,2022,0,100.0
+csulongbeach,Track and Field,2022,1,50.0
+csulongbeach,Track and Field,2023,0,125.0
+csulongbeach,Track and Field,2023,1,390.0
+csulongbeach,Track and Field,2024,1,65.0
+csulongbeach,Volleyball,2021,0,200.0
+csulongbeach,Volleyball,2022,1,1500.0
+csulongbeach,Volleyball,2023,1,560.625
+csulongbeach,Volleyball,2024,0,787.5
+csulongbeach,Volleyball,2024,1,75.0
+csulongbeach,Water Polo,2022,1,155.0
+sacramentostate1,Other,2021,0,112.5
+sacramentostate1,Other,2021,1,297.334
+sacramentostate1,Other,2022,1,158.84615384615384
+sacramentostate2,Baseball,2023,0,10.0
+sacramentostate2,Baseball,2023,1,105.0
+sacramentostate2,Baseball,2024,0,100.0
+sacramentostate2,Baseball,2024,1,120.0
+sacramentostate2,Basketball,2023,1,150.0
+sacramentostate2,Basketball,2024,1,80.0
+sacramentostate2,Football,2022,1,5000.0
+sacramentostate2,Football,2023,0,535.7142857142857
+sacramentostate2,Football,2023,1,393.3333333333333
+sacramentostate2,Football,2024,0,300.0
+sacramentostate2,Football,2024,1,100.0
+sacramentostate2,Gymnastics,2023,1,10.0
+sacramentostate2,Gymnastics,2024,0,389.3333333333333
+sacramentostate2,Soccer,2022,1,150.0
+sacramentostate2,Soccer,2023,1,105.0
+sacramentostate2,Soccer,2024,0,65.0
+sacramentostate2,Softball,2023,1,96.44333333333333
+sacramentostate2,Softball,2024,1,150.0
+sacramentostate2,Tennis,2024,1,500.0
+sacramentostate2,Track and Field,2022,0,43.333333333333336
+sacramentostate2,Track and Field,2022,1,50.0
+sacramentostate2,Track and Field,2023,0,75.0
+sacramentostate2,Track and Field,2023,1,200.0
+sacramentostate2,Track and Field,2024,1,300.0
+sacramentostate3,Baseball,2021,0,10.0
+sacramentostate3,Baseball,2022,0,10.0
+sacramentostate3,Baseball,2023,0,78.33333333333333
+sacramentostate3,Baseball,2024,0,40.0
+sacramentostate3,Football,2021,0,360.0
+sacramentostate3,Football,2022,0,433.3333333333333
+sacramentostate3,Football,2022,1,500.0
+sacramentostate3,Football,2023,0,500.0
+sacramentostate3,Football,2023,1,500.0
+sacramentostate3,Football,2024,0,533.3333333333334
+sacramentostate3,Gymnastics,2021,0,300.0
+sacramentostate3,Gymnastics,2023,0,568.0
+sacramentostate3,Gymnastics,2024,0,155.0
+sacramentostate3,Soccer,2024,1,50.0
+sacramentostate3,Softball,2021,0,75.0
+sacramentostate3,Softball,2022,0,150.0
+sacramentostate3,Softball,2022,1,90.0
+sacramentostate3,Softball,2023,0,150.0
+sacramentostate3,Softball,2023,1,164.995
+sacramentostate3,Softball,2024,0,35.0
+sacramentostate3,Softball,2024,1,23.0
+sacramentostate3,Tennis,2024,0,200.0
+sacramentostate4,Basketball,2023,0,80.0
+sacramentostate4,Football,2021,0,600.0
+sacramentostate4,Football,2022,0,600.0
+sacramentostate4,Gymnastics,2021,0,10.0
+sacramentostate4,Soccer,2021,1,35.0
+sacramentostate4,Soccer,2023,0,65.0
+ucberkeley,Baseball,2021,0,10000.0
+ucberkeley,Baseball,2021,1,4500.0
+ucberkeley,Baseball,2022,0,270.0
+ucberkeley,Baseball,2022,1,500.0
+ucberkeley,Baseball,2023,0,1000.0
+ucberkeley,Baseball,2023,1,643.3333333333334
+ucberkeley,Baseball,2024,0,8.97888888888889
+ucberkeley,Baseball,2024,1,4000.0
+ucberkeley,Baseball,2025,0,5384.2425
+ucberkeley,Baseball,2025,1,3433.3333333333335
+ucberkeley,Basketball,2021,0,65.62
+ucberkeley,Basketball,2021,1,2789.1666666666665
+ucberkeley,Basketball,2022,0,6323.75
+ucberkeley,Basketball,2022,1,69900.36363636363
+ucberkeley,Basketball,2023,0,3128.076923076923
+ucberkeley,Basketball,2023,1,15987.4375
+ucberkeley,Basketball,2024,0,1876.561875
+ucberkeley,Basketball,2024,1,16175.75
+ucberkeley,Basketball,2025,0,92.0875
+ucberkeley,Basketball,2025,1,440.0
+ucberkeley,Beach Volleyball,2021,0,30000.0
+ucberkeley,Beach Volleyball,2021,1,77.5
+ucberkeley,Beach Volleyball,2022,0,80.0
+ucberkeley,Beach Volleyball,2022,1,72.995
+ucberkeley,Beach Volleyball,2023,1,334.0
+ucberkeley,Beach Volleyball,2024,0,83.44
+ucberkeley,Beach Volleyball,2024,1,177.44444444444446
+ucberkeley,Cross Country,2021,0,100.0
+ucberkeley,Cross Country,2021,1,130.0
+ucberkeley,Cross Country,2022,1,15.0
+ucberkeley,Cross Country,2023,0,100.0
+ucberkeley,Cross Country,2023,1,112.5
+ucberkeley,Cross Country,2024,0,132.5
+ucberkeley,Cross Country,2024,1,150.42857142857142
+ucberkeley,Field Hockey,2021,1,500.0
+ucberkeley,Field Hockey,2023,1,50.0
+ucberkeley,Field Hockey,2024,0,4000.0
+ucberkeley,Field Hockey,2024,1,168.75
+ucberkeley,Field Hockey,2025,1,162.5
+ucberkeley,Football,2021,0,106.1
+ucberkeley,Football,2021,1,50.0
+ucberkeley,Football,2022,0,1012.5
+ucberkeley,Football,2022,1,337.5
+ucberkeley,Football,2023,0,1000.0
+ucberkeley,Football,2023,1,5853.333333333333
+ucberkeley,Football,2024,0,248.7312162162162
+ucberkeley,Football,2024,1,6846.8
+ucberkeley,Football,2025,0,67.98444444444445
+ucberkeley,Golf,2021,1,192.5
+ucberkeley,Golf,2022,0,120.0
+ucberkeley,Golf,2022,1,40.0
+ucberkeley,Golf,2023,1,100.0
+ucberkeley,Golf,2024,0,28.93
+ucberkeley,Gymnastics,2021,0,548.3333333333334
+ucberkeley,Gymnastics,2021,1,53.818823529411766
+ucberkeley,Gymnastics,2022,0,605.0
+ucberkeley,Gymnastics,2022,1,168.57142857142858
+ucberkeley,Gymnastics,2023,0,166.9090909090909
+ucberkeley,Gymnastics,2023,1,133.28
+ucberkeley,Gymnastics,2024,0,991.6688888888889
+ucberkeley,Gymnastics,2024,1,180.97846153846154
+ucberkeley,Gymnastics,2025,0,133.3
+ucberkeley,Gymnastics,2025,1,210.33333333333334
+ucberkeley,Lacrosse,2021,0,150.0
+ucberkeley,Lacrosse,2021,1,101.14285714285714
+ucberkeley,Lacrosse,2022,0,110.0
+ucberkeley,Lacrosse,2023,1,138.14285714285714
+ucberkeley,Lacrosse,2024,0,60.77
+ucberkeley,Lacrosse,2024,1,109.0
+ucberkeley,Lacrosse,2025,0,83.48
+ucberkeley,Other,2021,1,1015.0
+ucberkeley,Other,2022,0,17.5
+ucberkeley,Other,2022,1,440.0
+ucberkeley,Other,2023,0,166.66666666666666
+ucberkeley,Other,2023,1,937.5
+ucberkeley,Other,2024,1,2350.0
+ucberkeley,Rowing,2021,1,49.46
+ucberkeley,Rowing,2022,0,40.0
+ucberkeley,Rowing,2022,1,1200.0
+ucberkeley,Rowing,2023,0,125.0
+ucberkeley,Rowing,2023,1,150.0
+ucberkeley,Rowing,2024,1,150.148
+ucberkeley,Rugby,2021,0,10.0
+ucberkeley,Rugby,2022,0,17.5
+ucberkeley,Rugby,2023,0,195.0
+ucberkeley,Rugby,2024,1,125.0
+ucberkeley,Soccer,2021,1,106.11
+ucberkeley,Soccer,2022,0,183.87666666666667
+ucberkeley,Soccer,2022,1,200.0
+ucberkeley,Soccer,2023,0,1358.2475
+ucberkeley,Soccer,2023,1,571.4285714285714
+ucberkeley,Soccer,2024,0,495.9269230769231
+ucberkeley,Soccer,2024,1,581.1111111111111
+ucberkeley,Soccer,2025,1,50.0
+ucberkeley,Softball,2021,0,30000.0
+ucberkeley,Softball,2022,0,250.71428571428572
+ucberkeley,Softball,2022,1,5050.0
+ucberkeley,Softball,2023,0,132.5
+ucberkeley,Softball,2023,1,5000.0
+ucberkeley,Softball,2024,0,33.04416666666667
+ucberkeley,Softball,2024,1,600.0
+ucberkeley,Softball,2025,0,294.62333333333333
+ucberkeley,Swimming/Diving,2021,0,600.0
+ucberkeley,Swimming/Diving,2021,1,541.4483333333334
+ucberkeley,Swimming/Diving,2022,0,518.055
+ucberkeley,Swimming/Diving,2022,1,137.47333333333333
+ucberkeley,Swimming/Diving,2023,0,116.66666666666667
+ucberkeley,Swimming/Diving,2023,1,150.0
+ucberkeley,Swimming/Diving,2024,1,215.2475
+ucberkeley,Swimming/Diving,2025,1,200.0
+ucberkeley,Track and Field,2021,0,180.0
+ucberkeley,Track and Field,2021,1,40.0
+ucberkeley,Track and Field,2022,0,100.0
+ucberkeley,Track and Field,2022,1,206.66666666666666
+ucberkeley,Track and Field,2023,0,322.8025
+ucberkeley,Track and Field,2023,1,56.0
+ucberkeley,Track and Field,2024,0,119.745
+ucberkeley,Track and Field,2024,1,133.33333333333334
+ucberkeley,Track and Field,2025,1,200.0
+ucberkeley,Volleyball,2021,1,150.0
+ucberkeley,Volleyball,2022,1,30.0
+ucberkeley,Volleyball,2023,0,150.0
+ucberkeley,Volleyball,2023,1,319.0
+ucberkeley,Volleyball,2024,0,271.12615384615384
+ucberkeley,Volleyball,2024,1,203.1818181818182
+ucberkeley,Water Polo,2021,1,100.0
+ucberkeley,Water Polo,2022,1,210.0
+ucberkeley,Water Polo,2023,0,17.5
+ucberkeley,Water Polo,2024,0,125.0
+ucberkeley,Water Polo,2024,1,200.0
+ucdavis,Baseball,2021,0,45.875
+ucdavis,Baseball,2022,0,44.333333333333336
+ucdavis,Baseball,2023,0,43.714285714285715
+ucdavis,Baseball,2024,0,62.375
+ucdavis,Basketball,2021,0,78.6
+ucdavis,Basketball,2021,1,150.0
+ucdavis,Basketball,2022,0,60.0
+ucdavis,Basketball,2022,1,5.0
+ucdavis,Basketball,2023,0,44.2
+ucdavis,Basketball,2023,1,50000.0
+ucdavis,Basketball,2024,0,39.0
+ucdavis,Basketball,2024,1,100.0
+ucdavis,Beach Volleyball,2021,0,28.0
+ucdavis,Beach Volleyball,2021,1,25.0
+ucdavis,Beach Volleyball,2022,0,65.0
+ucdavis,Beach Volleyball,2024,0,22.0
+ucdavis,Equestrian,2021,0,34.0
+ucdavis,Equestrian,2022,0,80.52
+ucdavis,Equestrian,2022,1,50.0
+ucdavis,Equestrian,2023,0,22.333333333333332
+ucdavis,Equestrian,2023,1,100.0
+ucdavis,Equestrian,2024,0,22.0
+ucdavis,Field Hockey,2023,0,30.0
+ucdavis,Field Hockey,2024,0,20.0
+ucdavis,Football,2021,0,62.81818181818182
+ucdavis,Football,2021,1,2250.0
+ucdavis,Football,2022,0,101.2
+ucdavis,Football,2022,1,408.3333333333333
+ucdavis,Football,2023,0,86.4375
+ucdavis,Football,2023,1,150.0
+ucdavis,Football,2024,0,76.8125
+ucdavis,Football,2024,1,25000.0
+ucdavis,Gymnastics,2021,1,500.0
+ucdavis,Gymnastics,2023,0,31.6
+ucdavis,Lacrosse,2021,0,36.0
+ucdavis,Lacrosse,2022,0,48.0
+ucdavis,Lacrosse,2023,0,66.0
+ucdavis,Lacrosse,2024,0,41.510000000000005
+ucdavis,Soccer,2021,0,33.25
+ucdavis,Soccer,2022,0,62.666666666666664
+ucdavis,Soccer,2023,0,41.18571428571429
+ucdavis,Soccer,2024,0,30.2875
+ucdavis,Softball,2021,0,43.82833333333334
+ucdavis,Softball,2022,0,41.67375
+ucdavis,Softball,2023,0,38.0
+ucdavis,Softball,2024,0,37.89
+ucdavis,Tennis,2022,0,56.0
+ucdavis,Track and Field,2023,0,10.0
+ucdavis,Volleyball,2021,0,70.5
+ucdavis,Volleyball,2022,0,64.39999999999999
+ucdavis,Volleyball,2022,1,300.0
+ucdavis,Volleyball,2023,0,49.05
+ucdavis,Volleyball,2023,1,175.0
+ucdavis,Volleyball,2024,0,72.5
+ucdavis,Volleyball,2024,1,175.0
+ucdavis,Water Polo,2021,0,63.95333333333334
+ucdavis,Water Polo,2022,0,28.0
+ucdavis,Water Polo,2023,0,54.0
+ucdavis,Water Polo,2024,0,33.6
+ucla,Baseball,2022,0,305.625
+ucla,Baseball,2023,0,8339.166666666666
+ucla,Baseball,2023,1,23641.875
+ucla,Baseball,2024,0,76.33333333333333
+ucla,Baseball,2024,1,4500.0
+ucla,Basketball,2021,1,40.57333333333333
+ucla,Basketball,2022,0,3952.2
+ucla,Basketball,2022,1,151.27410256410258
+ucla,Basketball,2023,0,10143.650793650793
+ucla,Basketball,2023,1,4354.904772727273
+ucla,Basketball,2024,0,2465.4716666666664
+ucla,Basketball,2024,1,56275.0
+ucla,Beach Volleyball,2022,0,2062.5
+ucla,Beach Volleyball,2023,0,5000.0
+ucla,Beach Volleyball,2023,1,2645.714285714286
+ucla,Beach Volleyball,2024,1,9000.0
+ucla,Cross Country,2022,0,5000.0
+ucla,Cross Country,2023,0,82.5
+ucla,Cross Country,2023,1,253.33333333333334
+ucla,Football,2022,0,4044.9861111111113
+ucla,Football,2022,1,12075.0
+ucla,Football,2023,0,9771.111111111111
+ucla,Football,2023,1,3758.784
+ucla,Football,2024,0,1486.0277777777778
+ucla,Football,2024,1,65090.818181818184
+ucla,Golf,2022,0,800.0
+ucla,Golf,2022,1,100.0
+ucla,Golf,2023,1,3125.0
+ucla,Gymnastics,2021,1,27.5
+ucla,Gymnastics,2022,0,7697.0
+ucla,Gymnastics,2022,1,8806.039230769231
+ucla,Gymnastics,2023,0,3228.125
+ucla,Gymnastics,2023,1,14302.161290322581
+ucla,Gymnastics,2024,0,192.5
+ucla,Gymnastics,2024,1,84290.29411764706
+ucla,Other,2023,0,250.0
+ucla,Other,2023,1,712.5
+ucla,Other,2024,0,500.0
+ucla,Rowing,2022,0,80.0
+ucla,Rowing,2023,1,30.0
+ucla,Rowing,2024,1,200.0
+ucla,Soccer,2022,0,3025.0
+ucla,Soccer,2023,0,0.01
+ucla,Soccer,2023,1,537.3333333333334
+ucla,Soccer,2024,0,345.2128571428571
+ucla,Soccer,2024,1,300.0
+ucla,Softball,2022,0,5223.333333333333
+ucla,Softball,2022,1,2707.1428571428573
+ucla,Softball,2023,0,14285.714285714286
+ucla,Softball,2023,1,3957.1428571428573
+ucla,Softball,2024,1,6203.094
+ucla,Swimming/Diving,2022,0,500.0
+ucla,Swimming/Diving,2022,1,252.4
+ucla,Swimming/Diving,2023,1,100.0
+ucla,Swimming/Diving,2024,0,250.0
+ucla,Tennis,2022,0,626.3529411764706
+ucla,Tennis,2022,1,9.82
+ucla,Tennis,2024,0,72.0
+ucla,Track and Field,2022,0,5064.375
+ucla,Track and Field,2022,1,325.0
+ucla,Track and Field,2023,0,212.5
+ucla,Track and Field,2023,1,306.11428571428576
+ucla,Track and Field,2024,1,1091.6666666666667
+ucla,Volleyball,2022,0,1591.5384615384614
+ucla,Volleyball,2022,1,350.0
+ucla,Volleyball,2023,0,3675.0
+ucla,Volleyball,2023,1,1330.0
+ucla,Volleyball,2024,0,833.4285714285714
+ucla,Volleyball,2024,1,496.0
+ucla,Water Polo,2022,0,437.45
+ucla,Water Polo,2023,1,76.0
+ucla,Water Polo,2024,1,65.515
+ucriverside,Basketball,2021,1,50.0
+ucriverside,Golf,2021,1,250.0
+ucriverside,Soccer,2024,1,100.0
+ucriverside,Softball,2021,1,150.0
+ucriverside,Softball,2023,1,150.0
+ucsandiego1,Baseball,2022,0,1436.765
+ucsandiego1,Baseball,2024,0,617.135
+ucsandiego1,Basketball,2021,0,221.745
+ucsandiego1,Basketball,2022,0,55739.28333333333
+ucsandiego1,Rowing,2021,0,28.68
+ucsandiego1,Rowing,2022,0,62.68
+ucsandiego1,Soccer,2021,0,59.230000000000004
+ucsandiego1,Soccer,2022,0,177.14
+ucsandiego1,Soccer,2023,0,318.96
+ucsandiego1,Soccer,2024,0,199.39333333333335
+ucsandiego1,Softball,2021,0,287.5
+ucsandiego1,Softball,2023,0,290.15
+ucsandiego1,Softball,2024,0,306.6
+ucsandiego1,Tennis,2021,0,169.0
+ucsandiego1,Tennis,2023,0,99.43
+ucsandiego1,Track and Field,2021,0,50.0
+ucsandiego1,Track and Field,2022,0,168.52
+ucsandiego1,Track and Field,2024,0,1440.875
+ucsandiego1,Volleyball,2021,0,173.57
+ucsandiego1,Volleyball,2022,0,263.675
+ucsandiego1,Volleyball,2023,0,185.0
+ucsandiego1,Water Polo,2024,0,285.5
+ucsantabarbara,Baseball,2021,0,5000.0
+ucsantabarbara,Baseball,2022,0,3166.6666666666665
+ucsantabarbara,Baseball,2023,0,5541.5
+ucsantabarbara,Baseball,2024,0,4916.5
+ucsantabarbara,Basketball,2021,0,3335.0
+ucsantabarbara,Basketball,2022,0,2385.714285714286
+ucsantabarbara,Basketball,2023,0,4047.222222222222
+ucsantabarbara,Basketball,2024,0,2833.720930232558
+ucsantabarbara,Soccer,2022,0,300.0
+ucsantabarbara,Soccer,2023,0,14.62
+ucsantabarbara,Soccer,2024,1,50.0
+ucsantabarbara,Track and Field,2021,1,200.0
+ucsantabarbara,Volleyball,2024,1,77.28
