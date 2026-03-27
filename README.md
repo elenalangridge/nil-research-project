@@ -1,6 +1,6 @@
 # NIL Research Project
 
-This repository contains the data and code for analysing Name, Image, and Likeness (NIL) deals at California public Division I universities from 2021-2024. The project examines the impact of social media deals on average transaction values, controlling for school and sport.
+This repository contains the data and code for analysing Name, Image, and Likeness (NIL) deals at California public Division 1 universities from 2021-2024. The project examines the impact of social media deals on average transaction values, controlling for school and sport.
 
 ## Repository Structure
 
