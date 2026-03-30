@@ -1,6 +1,7 @@
 # NIL Research Project
 
-This repository contains the data and code for analysing Name, Image, and Likeness (NIL) deals at California public Division 1 universities from 2021-2024. The project examines the impact of social media deals on average transaction values, controlling for school and sport.
+This repository contains the data and code for analysing Name, Image, and Likeness (NIL) deals at California public Division 1 universities from 2021-2024. The project aims to investigate the impact of social media deals on average transaction values, compared to other deal types, controlling for school and sport. 
+
 
 ## Repository Structure
 
@@ -14,6 +15,8 @@ This repository contains the data and code for analysing Name, Image, and Likene
     - `cleaned_nil.csv`: Intermediate cleaned dataset with standardised columns.
     - `nil_merged_analysis.csv`: Final aggregated dataset for regression analysis.
 
+
+
 ## How to Run the Project from Scratch
 
 ### Prerequisites
@@ -22,10 +25,9 @@ This repository contains the data and code for analysing Name, Image, and Likene
 
 ### Setup Steps
 1. **Clone or Download the Repository**:
-   - If using Git: `git clone [repository URL]`
-   - Or download the ZIP file and extract it.
+   - If using Git, clone: `https://github.com/elenalangridge/nil-research-project.git`
 
-2. **Set Up Virtual Environment** (Recommended):
+2. **Set Up Virtual Environment**:
    - Navigate to the project directory.
    - Create a virtual environment: `python -m venv .venv`
    - Activate it: `source .venv/bin/activate` (on macOS/Linux) or `.venv\Scripts\activate` (on Windows).
