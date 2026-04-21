@@ -39,22 +39,16 @@ This codebook documents the final dataset variables produced by the pipeline for
 - `is_social_media` (integer, 0/1)
   - Treatment indicator for social media deals.
 
-- `avg_amount` (numeric)
+- `avg_transaction_value` (numeric)
   - Mean NIL value (`amount`) for the grouped observation.
-
-- `count_obs` (integer)
-  - Number of deals included in the aggregated group.
-
-- `sum_amount` (numeric, optional) 
-  - Total NIL transaction value for the group.
 
 ## Notes and transformation logic
 
 - Raw data is read from `data/raw/` CSV files (e.g., `ucla.csv`, `ucberkeley.csv`, etc.).
 - Excluded: `fresnostate1`, `sandiegostate1` (manual exclusion rule), plus raw files without mappable `amount` (e.g., `ucirvine1`/`ucirvine2`, `sandiegostate2`, etc.).
 - Column mapping key in `code/01_cleaning_script.py` includes: `Amount`, `Total Compensation`, `Cost`, `Total NIL`, etc.
-- Sport normalization map in cleaning script includes and standardizes abbreviations like `MWP` -> `Water Polo`, `MBB` -> `Basketball`, `WVB` -> `Volleyball`, etc.
-- Year fallback: if no date is parsed, fill with random year from 2021-2024.
+- Sport normalisation map in cleaning script includes and standardises abbreviations like `MWP` -> `Water Polo`, `MBB` -> `Basketball`, `WVB` -> `Volleyball`, etc.
+- Year fallback: if no date is parsed, fill with a random year from 2021 to 2024.
 - Aggregation script groups by (`school`, `year`, `sport`, `is_social_media`) and calculates mean/size.
 
 ## Reproducibility
