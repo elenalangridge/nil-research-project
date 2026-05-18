@@ -41,7 +41,6 @@ nil-research-project/
 ```
 
 ---
-My my relationship between my wife, and I may not observe the ability of an individual
 ## How to Run the Project from Scratch
 
 ### Prerequisites — Software
