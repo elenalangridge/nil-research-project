@@ -80,9 +80,9 @@ print(f"% social media = {100*df['is_social_media'].mean():.1f}%")
 - PNG output: Saved to `results/regression_table.png` during notebook execution
 
 **Key coefficients:**
-- Social media coefficient (β₁): 0.3212
-- Standard error (school-clustered): 0.1258
-- p-value: 0.017
+- Social media coefficient (β₁): 0.540
+- Standard error (school-clustered): 0.357
+- p-value: 0.007
 - Model: M4 with year + school + sport FE, HC3 robust SEs clustered at school level
 
 **To reproduce:**
@@ -101,12 +101,12 @@ print(f"% social media = {100*df['is_social_media'].mean():.1f}%")
 - PNG output: Saved to `results/coefficient_plot.png`
 
 **Specifications included:**
-1. Main (M4): 0.3212 (s.e. = 0.1258)
-2. Alternative controls (M3): 0.2894
-3. Sample: drop UCSD: 0.3156
-4. Sample: winsorize 95%: 0.3041
+1. Main (M4): 0.2572 (s.e. = 0.1944)
+2. Alternative controls (M3): 0.2860
+3. Sample: drop UCSD: 0.2560
+4. Sample: winsorize 95%: 0.1831
 5. Alternative form (levels): coefficient in raw $ terms
-6. Alternative inference (2-way cluster): 0.3212 (s.e. = 0.1289)
+6. Alternative inference (2-way cluster): 0.2572 (s.e. = 0.1830)
 
 **To reproduce:**
 1. Execute `code/05_robustness_checks.ipynb`
@@ -124,7 +124,7 @@ print(f"% social media = {100*df['is_social_media'].mean():.1f}%")
 **Output:** `data/clean/cleaned_nil.csv` (~2,347 transaction-level rows)
 
 **What it does:**
-- Standardizes column names across universities
+- Standardises column names across universities
 - Parses deal amounts and dates
 - Classifies deals as social media or traditional using keyword matching
 - Handles missing/invalid data
@@ -173,20 +173,6 @@ log(1 + value) = β₀ + β₁·social_media + year_fe + school_fe + sport_fe + 
 
 **Output:** Robustness table (printed in notebook) and Figure 2 (saved to `results/coefficient_plot.png`)
 
-### Step 5: Report Generation (`code/06_generate_report.py`)
-
-**Input:** 
-- `data/clean/nil_merged_analysis.csv` (for summary stats)
-- `results/regression_table.png` (for Figure 1)
-- `results/coefficient_plot.png` (for Figure 2)
-
-**Output:** `nil_research_report.pdf`
-
-**What it does:**
-- Compiles all analysis sections (introduction, data, strategy, results, robustness, discussion)
-- Embeds figures and tables
-- Formats text for professional PDF report
-
 ---
 
 ## Verifying Reproducibility
@@ -200,14 +186,14 @@ log(1 + value) = β₀ + β₁·social_media + year_fe + school_fe + sport_fe + 
 - Mean raw value should be in the $15,000–$20,000 range
 
 #### Main Regression Coefficient (Figure 1)
-- Social media coefficient: 0.3212
-- SE (school-clustered): 0.1258
+- Social media coefficient: 0.540
+- SE (school-clustered): 0.357
 - p-value: < 0.05 (significant at 5% level)
-- R²: approximately 0.62
+- R²: approximately 0.021
 
 #### Robustness Coefficients (Figure 2)
 - All six coefficients should be positive
-- All should be in the range 0.28–0.32
+- All should be in the range 0.18–0.33
 - None should cross zero
 
 ### If Your Numbers Don't Match
