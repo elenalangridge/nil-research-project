@@ -30,7 +30,8 @@ nil-research-project/
 │   ├── 03_EDA_notebook.ipynb          ← Step 3: Exploratory data analysis
 │   ├── 04_primary_analysis.ipynb      ← Step 4: Primary econometric analysis
 │   ├── 05_robustness_checks.ipynb      ← Step 5: Dedicated robustness checks
-│   └── 06_generate_report.py          ← Step 6: Generate PDF report
+│   ├── 06_report_synthesis.ipynb       ← Step 6: Empirical strategy and robustness write-up
+│   └── 06_generate_report.py          ← Step 7: Generate PDF report
 ├── REPLICATION.md                     ← Detailed replication guide (maps figures to code)
 ├── requirements.txt                   ← Python package versions for reproducibility
 ├── nil_research_report.pdf            ← Final PDF report (GRADEABLE ARTIFACT)
@@ -133,7 +134,18 @@ jupyter nbconvert --to notebook --execute code/05_robustness_checks.ipynb \
 A pre-rendered HTML version is also available at `code/05_robustness_checks.html`.
 This notebook displays a side-by-side robustness table and coefficient plot for the main social media specification.
 
-**8. Generate the final PDF report** — compile all analysis into a professional write-up
+**8. Review the empirical strategy and robustness synthesis** — standalone write-up for the report
+```bash
+jupyter notebook code/06_report_synthesis.ipynb
+```
+Or execute non-interactively:
+```bash
+jupyter nbconvert --to notebook --execute code/06_report_synthesis.ipynb \
+  --output code/06_report_synthesis_executed.ipynb
+```
+This notebook presents the main specification, the declared descriptive ambition, and a condensed robustness summary with annotated interpretation.
+
+**9. Generate the final PDF report** — compile all analysis into a professional write-up
 ```bash
 python code/06_generate_report.py
 ```
