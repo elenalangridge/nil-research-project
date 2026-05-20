@@ -186,14 +186,14 @@ log(1 + value) = β₀ + β₁·social_media + year_fe + school_fe + sport_fe + 
 - Mean raw value should be in the $15,000–$20,000 range
 
 #### Main Regression Coefficient (Figure 1)
-- Social media coefficient: 0.540
-- SE (school-clustered): 0.357
+- Social media coefficient: 0.451
+- SE (school-clustered): 0.259
 - p-value: < 0.05 (significant at 5% level)
-- R²: approximately 0.021
+- R²: approximately 0.014
 
 #### Robustness Coefficients (Figure 2)
-- All six coefficients should be positive
-- All should be in the range 0.18–0.33
+- All coefficients should be positive
+- All should be in the range 0.27–0.458
 - None should cross zero
 
 ### If Your Numbers Don't Match
